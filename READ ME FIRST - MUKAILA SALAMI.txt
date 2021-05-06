@@ -1,0 +1,25 @@
+READ ME FIRST - MUKAILA SALAMI
+Please note the following
+
+ - Hacker News API only gives maximum of 20 results per search
+ 
+ - To utilze the full flavor of the service call features, I used Axios as opposed to the traditional FETCH 
+ to fetch the data from HN News API. Please npm install Axios as I will not be uploading my node_modules folder
+ to conserve space and download time. I will however include my package.json file
+
+ - You can use the store.getState() to view the snapshot of my Redux store storing the entered values in an array.
+ Please note that redux module also should be npm installed
+
+ - As emphasis is not laid on UI, I used the HTML primitive table and other primitive UI elements to search and
+ display data. Also Unit Testing excercise has not been implemented
+
+ - For the sake of this excercise, all components used reside in the App.js file, in prod, they will be modularized 
+ into their own components folder and imported
+
+- Note that since HN API utilizes some predictive text technology to provide results 
+there are some instances where users entry might not directly match the outcome as HN tries to 
+predict their entry to display the outcome. For example user Entry 'deznk' will be interepreted by HN
+as 'Denk' thus will bring outcome relating to 'Denk'
+
+- In order to prevent code injection attack on the 'search' input field, I have handled this in the .catch 
+block through contingency block of code

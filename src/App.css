@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+.App a{
+    text-decoration : none;
+}
+
+a:hover{
+  color: cornflowerblue;
+}
+
+a em{
+  background-color: #ff0 !important;
+  font-weight: bold;
+}
+
+table{
+  margin: 0 auto;
+  line-height: 1.5em;
+}
+
+.App-header {
+  background-color: #fff;
+  min-height: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: #000;
+  line-height: 25px;
+}
+
+
+.App-header input{
+  width: 400px
+}
